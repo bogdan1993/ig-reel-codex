@@ -1,0 +1,216 @@
+{
+  "version": "1.0",
+  "note": "Romanian editorial suggestions. Not evidence of AI authorship. Preserve meaning, quotes and voice.",
+  "invisible": [
+    {
+      "cp": "U+200B",
+      "name": "ZERO WIDTH SPACE",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200C",
+      "name": "ZERO WIDTH NON-JOINER",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200D",
+      "name": "ZERO WIDTH JOINER",
+      "action": "delete"
+    },
+    {
+      "cp": "U+2060",
+      "name": "WORD JOINER",
+      "action": "delete"
+    },
+    {
+      "cp": "U+FEFF",
+      "name": "ZERO WIDTH NO-BREAK SPACE / BOM",
+      "action": "delete"
+    },
+    {
+      "cp": "U+00AD",
+      "name": "SOFT HYPHEN",
+      "action": "delete"
+    },
+    {
+      "cp": "U+180E",
+      "name": "MONGOLIAN VOWEL SEPARATOR",
+      "action": "delete"
+    },
+    {
+      "cp": "U+061C",
+      "name": "ARABIC LETTER MARK",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200E",
+      "name": "LEFT-TO-RIGHT MARK",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200F",
+      "name": "RIGHT-TO-LEFT MARK",
+      "action": "delete"
+    },
+    {
+      "cp": "U+E0000-U+E007F",
+      "name": "TAG CHARACTERS (invisible ASCII smuggling)",
+      "action": "delete"
+    },
+    {
+      "cp": "U+00A0",
+      "name": "NO-BREAK SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+202F",
+      "name": "NARROW NO-BREAK SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2009",
+      "name": "THIN SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2007",
+      "name": "FIGURE SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2003",
+      "name": "EM SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2002",
+      "name": "EN SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2063",
+      "name": "INVISIBLE SEPARATOR",
+      "action": "delete"
+    }
+  ],
+  "typographic": [
+    {
+      "from": "—",
+      "name": "EM DASH",
+      "to": ", "
+    },
+    {
+      "from": "–",
+      "name": "EN DASH",
+      "to": "-"
+    },
+    {
+      "from": "‘",
+      "name": "LEFT SINGLE QUOTE",
+      "to": "'"
+    },
+    {
+      "from": "’",
+      "name": "RIGHT SINGLE QUOTE",
+      "to": "'"
+    },
+    {
+      "from": "“",
+      "name": "LEFT DOUBLE QUOTE",
+      "to": "\""
+    },
+    {
+      "from": "”",
+      "name": "RIGHT DOUBLE QUOTE",
+      "to": "\""
+    },
+    {
+      "from": "…",
+      "name": "HORIZONTAL ELLIPSIS",
+      "to": "..."
+    },
+    {
+      "from": "′",
+      "name": "PRIME",
+      "to": "'"
+    },
+    {
+      "from": "·",
+      "name": "MIDDLE DOT",
+      "to": "-"
+    },
+    {
+      "from": "•",
+      "name": "BULLET",
+      "to": "-"
+    },
+    {
+      "from": "→",
+      "name": "RIGHTWARDS ARROW",
+      "to": "->"
+    }
+  ],
+  "words": [],
+  "phrases": [
+    {
+      "find": "în peisajul actual",
+      "replace": "astăzi",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "în lumea de astăzi",
+      "replace": "astăzi",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "este important de menționat",
+      "replace": "",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "este esențial să subliniem",
+      "replace": "",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "în concluzie",
+      "replace": "",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "la finalul zilei",
+      "replace": "",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "nu mai derula",
+      "replace": "",
+      "family": "ro-editorial"
+    },
+    {
+      "find": "urmărește pentru mai multe",
+      "replace": "",
+      "family": "ro-editorial"
+    }
+  ],
+  "structures": [
+    {
+      "id": "ro-contrast",
+      "regex": "(?i)\\bnu (?:este|e) (?:doar )?[^.!?\\n]{2,80}[^\\n]*\\b(?:ci|este despre)\\b",
+      "name": "Contrast formular",
+      "fix": "Verifică dacă formularea adaugă sens; rescrie numai dacă este mecanică."
+    },
+    {
+      "id": "ro-preamble",
+      "regex": "(?i)\\b(?:în acest videoclip|astăzi vreau să|azi vreau să)\\b",
+      "name": "Preambul",
+      "fix": "Verifică dacă formularea adaugă sens; rescrie numai dacă este mecanică."
+    },
+    {
+      "id": "ro-rhetorical",
+      "regex": "(?i)\\b(?:rezultatul|secretul|concluzia)\\?",
+      "name": "Întrebare retorică scurtă",
+      "fix": "Verifică dacă formularea adaugă sens; rescrie numai dacă este mecanică."
+    }
+  ]
+}
