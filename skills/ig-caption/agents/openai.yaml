@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-caption"
+  short_description: "Descrieri Instagram verificate și preview de text"
+  default_prompt: "Folosește $ig-caption pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

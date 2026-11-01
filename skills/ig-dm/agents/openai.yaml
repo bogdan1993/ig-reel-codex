@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-dm"
+  short_description: "Mesaje Instagram și maximum două reveniri"
+  default_prompt: "Folosește $ig-dm pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

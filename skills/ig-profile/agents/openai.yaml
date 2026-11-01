@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-profile"
+  short_description: "Profil Instagram evaluat după 12 criterii"
+  default_prompt: "Folosește $ig-profile pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

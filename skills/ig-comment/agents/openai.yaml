@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-comment"
+  short_description: "Comentarii specifice din nouă tipuri disponibile"
+  default_prompt: "Folosește $ig-comment pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

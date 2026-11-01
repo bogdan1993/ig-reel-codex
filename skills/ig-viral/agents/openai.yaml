@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-viral"
+  short_description: "Cercetare de Reels și clasament după mediană"
+  default_prompt: "Folosește $ig-viral pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

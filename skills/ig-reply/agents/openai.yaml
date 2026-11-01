@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-reply"
+  short_description: "Clasifică comentariile și redactează răspunsuri"
+  default_prompt: "Folosește $ig-reply pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-reel"
+  short_description: "Reel: trei hook-uri, scoruri, scenariu și timpi"
+  default_prompt: "Folosește $ig-reel pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

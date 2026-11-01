@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-story"
+  short_description: "Secvențe Stories, stickere și răspunsuri în DM"
+  default_prompt: "Folosește $ig-story pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

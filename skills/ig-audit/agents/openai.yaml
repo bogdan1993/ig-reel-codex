@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-audit"
+  short_description: "Analizează performanța și distribuiri per reach"
+  default_prompt: "Folosește $ig-audit pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

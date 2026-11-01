@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-plan"
+  short_description: "Plan săptămânal și zece conturi relevante"
+  default_prompt: "Folosește $ig-plan pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

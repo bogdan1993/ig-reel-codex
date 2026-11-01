@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-human"
+  short_description: "Revizie de stil Instagram în română și engleză"
+  default_prompt: "Folosește $ig-human pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

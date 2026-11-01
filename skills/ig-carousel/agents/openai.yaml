@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-carousel"
+  short_description: "Carusele Instagram cu export PNG 1080 × 1350"
+  default_prompt: "Folosește $ig-carousel pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true

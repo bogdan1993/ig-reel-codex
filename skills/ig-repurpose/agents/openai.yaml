@@ -1,0 +1,6 @@
+interface:
+  display_name: "ig-repurpose"
+  short_description: "Un material lung devine conținut pentru o săptămână"
+  default_prompt: "Folosește $ig-repurpose pentru conținutul meu Instagram, în vocea mea."
+policy:
+  allow_implicit_invocation: true
