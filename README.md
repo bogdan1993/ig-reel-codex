@@ -1,5 +1,11 @@
 # Instagram Agent Skills for Codex
 
+## Testat în ChatGPT Cloud
+
+Instalat și testat într-un cont ChatGPT real la **2 noiembrie 2026**, cu instrucțiuni de Project, bibliotecile COMMANDS/REFERENCE și helpers.zip. Au fost confirmate accesul la surse, cele 26 de formule, rubrica de 12 criterii cu total 100 și execuția reală a hookscore.py și beats.py în Python. Rezultatele pentru inputurile de test au coincis cu rularea locală: **44,4** pentru scor și **6,55 secunde** pentru timing estimat.
+
+Sunt teste reprezentative, nu verificarea individuală a tuturor celor 13 comenzi. Metricile lipsă au rămas N/A. Nu s-a testat publicarea ori randarea video/carusele. Vezi [scopul testelor](docs/CLOUD_TESTS.md).
+
 ## ChatGPT Cloud — toate cele 13 comenzi
 
 [Configurare pas cu pas](adapters/chatgpt/README.md) · [Pachet de descărcat](https://github.com/bogdan1993/ig-reel-codex/raw/refs/heads/main/adapters/chatgpt/instagram-toolkit-chatgpt.zip)
