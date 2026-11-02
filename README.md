@@ -1,5 +1,11 @@
 # Instagram Agent Skills for Codex
 
+## ChatGPT Cloud — toate cele 13 comenzi
+
+[Configurare pas cu pas](adapters/chatgpt/README.md) · [Pachet de descărcat](https://github.com/bogdan1993/ig-reel-codex/raw/refs/heads/main/adapters/chatgpt/instagram-toolkit-chatgpt.zip)
+
+Pentru un Project ChatGPT: copiază PROJECT_INSTRUCTIONS.md în instrucțiuni și încarcă COMMANDS.md, REFERENCE.md și, opțional, helpers.zip pentru scoruri/timing rulate efectiv. Comenzile /IG-* sunt aliasuri conversaționale. Nu există publicare automată; helper-ele necesită execuție Python disponibilă în sesiune.
+
 **All 13 commands from the original Instagram agent pack**, adapted for Codex, with Romanian and English editorial support. Plan, research, write and review Instagram content using local skills and standard-library Python tools.
 
 Adapted from [Jake Schincariol’s instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill), under the **MIT license**. The original 26 hook formula IDs and the 12-part, 100-point profile rubric are preserved. This is an independent adaptation, not an official OpenAI or Instagram integration.

@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-codex-ro",
+  "version": "2.1.0-cloud-ro",
   "skills": [
     "ig-audit",
     "ig-caption",
@@ -18,7 +18,7 @@
   "files": {
     ".gitignore": "86a5f402b7ab3ede6414ba2a6314e5bd4d8e4fa91ca6bc24e2ecc8bdfb21484e",
     "LICENSE": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c",
-    "README.md": "c79b386b30f1029310f8eac26bc3c9978398a29ca06351d8978c7b1154dfbd42",
+    "README.md": "ee9b59aa6e46afbccd7c46f2196b8395a70ac7c387abaeaed5c55699bdc52a2b",
     "VERIFICARE.md": "16dedc8be6c0661aa0f3ed290d4a94a8a962e3527f231cdead2d654a16d3fc00",
     "install.py": "a334591e4bead4997ad4a1f13b662eddc417e81c4c6d31b4047543b4336e590f",
     "skills/ig-audit/LICENSE": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c",
@@ -77,6 +77,9 @@
     "templates/voice.md": "ac3288fe81aacca61380114a836d9e8899fc8064526c293caccfdc729dc0988e",
     "tests/test_helpers.py": "726c43859354be141f471e82aafab1e78886a14c4b3407068ec06f2ebc26b44f",
     "tests/test_installer.py": "77ed8990b008f273e3e7e1f9abfed4b3449da519ff3754e7abecdf886571e931",
-    "upstream-commit.json": "f30299bf50df0917ee18a84e55e94559bc214a8240917211376491a669630e07"
+    "upstream-commit.json": "f30299bf50df0917ee18a84e55e94559bc214a8240917211376491a669630e07",
+    "build_adapters.py": "a32fc7c00d8aaef14d42f10019b9adf08a38bc08b7a711d21164042982694746",
+    "tests/test_adapters.py": "0f4a681daa091cbcf93fdd6ddd2b2c118b98eccba6def02078daf1c38036a235",
+    ".github/workflows/check.yml": "2559d30b7082c61c0c3963922539fcd3a9198c32ca0d83ebaf7d7dc08b2ff504"
   }
 }
